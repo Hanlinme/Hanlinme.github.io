@@ -76,6 +76,16 @@ body>.navbar .brand:hover {
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .4);
 }
 
+.text-content {
+    font-size :  15px ;
+text-indent :  30px ;
+      /*段落首行缩进，text-indent的值为font-size的2倍，相当于缩进2个汉字*/
+line-height :  26px ;
+      /*line-height的值为font-size的1.5倍，即1.5倍行距，使用line-height: 1.5效果相同;*/
+text-align : justify ;
+     /*左右对齐*/
+}
+
 
 /* Sidenav for Docs
          -------------------------------------------------- */
@@ -113,7 +123,7 @@ body>.navbar .brand:hover {
 	margin: 0 0 -1px;
 	padding: 8px 30px;
 	border: 1px solid #e5e5e5;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .bs-docs-sidenav>li:first-child>a {
@@ -140,7 +150,7 @@ body>.navbar .brand:hover {
 }
 
 .bs-docs-sidenav>li>a:hover {
-	background-color: #f5f5f5
+	background-color: #9B0D14
 }
 
 .bs-docs-sidenav a:hover .icon-chevron-right {
@@ -189,9 +199,9 @@ body>.navbar .brand:hover {
 	/*margin-left: 0;;
     margin-right: 20px;*/
 	border-radius: 4px;
-	box-shadow: 1px 1px 2px 0px #E0E0E0;
+	box-shadow: 1px 1px 2px 0px #9B0D14;/*#E0E0E0*/
 	width: 487px;
-	height: 616px;
+	height: 618px;
 }
 
 #media .post_row .last {
@@ -204,7 +214,7 @@ body>.navbar .brand:hover {
 }
 
 #media .post_row .post .img .date {
-	background: #E8554E;
+	background: #9B0D14;/*#9B0D14*/
 	position: absolute;
 	padding: 2px 5px;
 	top: 0;
@@ -397,16 +407,16 @@ body>.navbar .brand:hover {
 	color: #fff;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #30393C;
-	background: -moz-linear-gradient(45deg, #30393C 0%, #000000 100%);
+	background: #9B0D14;
+	background: -moz-linear-gradient(45deg, #9B0D14 0%, #000000 100%);
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #30393C), color-stop(100%, #30393C));
-	background: -webkit-linear-gradient(45deg, #30393C 0%, #000000 100%);
-	background: -o-linear-gradient(45deg, #30393C 0%, #000000 100%);
-	background: -ms-linear-gradient(45deg, #30393C 0%, #000000 100%);
-	background: linear-gradient(45deg, #30393C 0%, #000000 100%) repeat;
-	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
-	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
-	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
+	background: -webkit-linear-gradient(45deg, #9B0D14 0%, #000000 100%);
+	background: -o-linear-gradient(45deg, #9B0D14 0%, #000000 100%);
+	background: -ms-linear-gradient(45deg, #9B0D14 0%, #000000 100%);
+	background: linear-gradient(45deg, #9B0D14 0%, #000000 100%) repeat;
+	-webkit-box-shadow: inset 0 3px 7px rgba(155,13,20, .2), inset 0 -3px 7px rgba(155,13,20, .2);
+	-moz-box-shadow: inset 0 3px 7px rgba(155,13,20, .2), inset 0 -3px 7px rgba(155,13,20, .2);
+	box-shadow: inset 0 3px 7px rgba(155,13,20, .2), inset 0 -3px 7px rgba(155,13,20, .2);
 }
 
 .jumbotron:after {
@@ -422,9 +432,9 @@ body>.navbar .brand:hover {
 
 .lead {
 	margin-bottom: 0px;
-	font-size: 21px;
+	font-size: 26px;
 	font-weight: 200;
-	line-height: 15px;
+	line-height: 20px;
 }
 
 img.float-left {
@@ -518,8 +528,8 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	border-top-color: #2F2F2F;
-	background-color: #000000;
+	border-top-color: #ffff;
+	background-color: #9B0D14;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -531,15 +541,16 @@ ul.sponsors {
 	font-size: 19px;
 	text-transform: uppercase;
 	font-family: BebasNeueRegular;
-	color: #8DBECE;
+	color: #ffff;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #30393C;
+	border-bottom-color: #ffff;
 	line-height: 35px;
 	margin-bottom: 20px;
 	margin-top: 25px;
 	font-weight: normal;
 }
+
 
 #footer a img {
 	margin-top: 40px;
@@ -547,6 +558,7 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-	color: #8F8F8F;
-	font-size: 11px;
+	color: #ffff;
+	font-size: 15px;
 }
+
